@@ -39,23 +39,27 @@ pip install flask
 ##### Steps:
 
 1. Open [this link](https://stackapps.com/apps/oauth/register) and  fill in this form and click submit:
- 
+
+``` 
 - OAuth Domain (without http protocol): localhost 
 - Application Website: http://localhost
 - Checked "Enable Client Side OAuth Flow"
 - The rest form can be anything
+```
 
 2. After that, you will get Client ID, Client Secret, and Key, save their values.
 
 3. Open app.py file, and set this variables:
 
+```
 - CLIENT_SECRET -> Client Secret from StackExchange
 - CLIENT_ID -> Client ID from StackExchange
+```
 
-4. Open Terminal, and run python app.py
+4. Open Terminal, and run `python app.py`
 
 5. Open Browser and access localhost, you will be asked to approve OAuth using your StackExchange Account
 
 6. Once you approve, you will get the Access Token
 
-7. Use the Access Token and Key from Stack Exchange to the jupyter notebooks, specifically set them to these two variables `ACCESS_TOKEN` and `API_KEY` respectively
+7. Use the Access Token and Key from Stack Exchange to the jupyter notebooks,specifically set them to these two variables `ACCESS_TOKEN` and `API_KEY` respectively
