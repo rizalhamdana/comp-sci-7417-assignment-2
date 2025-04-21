@@ -3,9 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-CLIENT_ID = "31620"
-CLIENT_SECRET = "sVAncuI*uwmPRLwhBZ9lNQ(("
-REDIRECT_URI = "https://5a61-210-5-32-245.ngrok-free.app/callback"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+REDIRECT_URI = "http://localhost/callback"
 
 @app.route("/")
 def login():
