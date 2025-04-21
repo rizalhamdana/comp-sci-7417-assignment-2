@@ -5,7 +5,7 @@ This is the second assignment of Applied Natural Language Processing course at t
 ### Python Libraries Prerequisites:
 
 ```
-python==3.9.12
+python==3.9.21
 ast
 bs4
 collections
