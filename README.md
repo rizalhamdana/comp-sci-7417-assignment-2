@@ -49,7 +49,7 @@ pip install flask
 
 2. After that, you will get Client ID, Client Secret, and Key, save their values.
 
-3. Open app.py file, and set this variables:
+3. Clone this repository, then open app.py file. Set these variables:
 
 ```
 - CLIENT_SECRET -> Client Secret from StackExchange
